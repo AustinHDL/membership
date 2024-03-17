@@ -124,6 +124,6 @@ body{
 @media only screen and (max-width:500px){
     #main .card-grid{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px 18px;
+        grid-gap: 18px;
     }
 }
