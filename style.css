@@ -122,8 +122,13 @@ body{
 }
 
 @media only screen and (max-width:500px){
+    #main .cardshelf{
+        padding: 0 18px 80px 18px;
+        width: calc(100% - 36px);
+    }
+
     #main .card-grid{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 18px;
+        grid-gap: 20px;
     }
 }
